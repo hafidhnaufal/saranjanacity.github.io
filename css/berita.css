@@ -2,86 +2,103 @@
 	padding: 0;
 	margin-top: 0;
 	font-family: sans-serif;
-}
-a{
+	}
+	a{
 	color: inherit;
 	text-decoration: none;
-}
-
-.container{
+	}
+	
+	.container{
 	width: 80%;
 	margin: auto;
 	color: rgb(255, 255, 255);
-}
-.container:after{
+	}
+	.container:after{
 	content: " ";
 	display: block;
 	clear: both;
-}
-
-.navigasi{
+	}
+	
+	.navigasi{
 	position: fixed;
 	top: 0%;
 	width: 100%;
 	z-index: 1;
-}
-.navigasi ul li {
+	}
+	.navigasi ul li {
 	display: inline-block;
-}
-header h1{
+	}
+	header h1{
 	float: left;
 	padding: px 0px;
 	color:rgb(228, 0, 0);
-}
-header ul{
-	float: right;		
+	}
+	header ul{
+	float: right;
 	margin-right: 200px;
-}
-header ul li{
+	}
+	header ul li{
 	color: rgb(0, 0, 0);
-}
-header ul li a{
+	}
+	header ul li a{
 	padding: 20px 25px;
 	display: inline-block;
-}
-header ul li a:hover{
+	}
+	header ul li a:hover{
 	background-color: #6a7468;
 	color: rgb(0, 0, 0);
-}
-.active{
+	}
+	.active{
 	color: rgb(0, 0, 0);
-}
-.content{
+	}
+	.content{
 	margin-top: 40px;
 	display: flex;
-	margin: 100px 0px;
-}
-.foto{
-	width: 50%;
-}
-.foto img{
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-.isi{
-	border: 1px solid;
+	}
+	.isi{
+	
 	width: 50%;
 	padding: 20px;
-}
-
-footer{
+	font-size: 16pt ;
+	}
+	.visimisi{
+	display: flex;
+	margin-top: 40px;
+	margin: 40px;
+	text-align: justify;
+	margin-bottom: -100px;
+	}
+	.visi{
+	padding: 20px;
+	width: 50%;
+	}
+	.misi{
+	padding: 20px;
+	width: 50%;
+	}
+	.about p{
+	color: #666;
+	word-spacing: 2px;
+	line-height: 20px;
+	
+	}
+	.sejarah{
+	color: black;
+	text-align: center;
+	padding: 10% 100px;
+	font-size: 16pt;
+	}
+	footer{
 	padding: 60px 0;
 	background-color:rgb(228, 0, 0);
-}
-.container h3{
+	}
+	.container h3{
 	text-align: center;
-}
-.container p{
+	}
+	.container p{
 	text-align: center;
-}
-.icon ul li{
+	}
+	.icon ul li{
 	list-style: none;
 	margin-top: 15px;
-}
+	}
